@@ -14,14 +14,14 @@ var corn2 = prompt("2");
 
 // pic walrus
 //me
-
-jQuery ("h1").click(function() {
+$(function() {
+$ ("h1").click(function() {
   alert("this is Jack");
-}
-jQuery("p").click(function() {
+});
+$("p").click(function() {
   alert("what is my plan");
-}
-jQuery("image").click(function() {
+});
+$("img").click(function() {
   alert("When I was young");
-
+  });
 });
